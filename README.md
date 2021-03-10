@@ -1,5 +1,8 @@
 Movie Theater Seating
+
 Language used: Java
+
+
 Program Description:
 This program takes an input file from command line argument, reads line by line and processes the user requests for reserving seats in the movie theater.
 The algorithm follows following Assumptions:
@@ -19,6 +22,7 @@ Balancing customer satisfaction, safety and Theater Management Interests(maximiz
 3.	Social Distancing is over top priority so between any two groups of people there are 3 empty seats.
 4.	To make sure that we are able to accommodate as many groups as possible and also keep them satisfied by allocating consecutive seats, we start allocating seats from the first column. This will allow us to allocate seats for maximum number of groups in a single row.
 5.	While prioritizing customers comfort and safety this algorithm also gives priority to fill as many seats as possible to maximize profit for the Theater Management so 3 seat gap is maintained between different requests but a buffer row is not maintained.
+
 Steps for running
 1.	Download and unzip the folder .
 2.	Compile all the java files in src by going into src folder and open command prompt and use this command javac MovieTheater/*.java (MovieTheater is the package).
